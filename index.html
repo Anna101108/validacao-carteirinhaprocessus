@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Validação da Carteirinha</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#eef2f7;
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+padding:20px;
+}
+
+.card{
+width:400px;
+background:#fff;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 10px 30px rgba(0,0,0,.18);
+}
+
+.topo{
+background:#003b8f;
+padding:25px;
+text-align:center;
+}
+
+.topo img{
+width:220px;
+max-width:100%;
+}
+
+.status{
+background:#16a34a;
+color:#fff;
+padding:15px;
+text-align:center;
+font-size:22px;
+font-weight:bold;
+}
+
+.info{
+padding:30px;
+}
+
+.info h2{
+text-align:center;
+color:#003b8f;
+margin-bottom:25px;
+font-size:28px;
+}
+
+.item{
+margin-bottom:20px;
+padding-bottom:15px;
+border-bottom:1px solid #ececec;
+}
+
+.titulo{
+display:block;
+font-weight:bold;
+color:#003b8f;
+margin-bottom:6px;
+}
+
+.valor{
+font-size:18px;
+color:#333;
+}
+
+.validade{
+font-size:20px;
+font-weight:bold;
+color:#16a34a;
+}
+
+.rodape{
+background:#f5f5f5;
+padding:18px;
+text-align:center;
+font-size:14px;
+color:#666;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<div class="topo">
+
+<img src="logo.png" alt="UniProcessus">
+
+</div>
+
+<div class="status">
+
+✅ DOCUMENTO VÁLIDO
+
+</div>
+
+<div class="info">
+
+<h2>Dados do Aluno</h2>
+
+<div class="item">
+<span class="titulo">Nome</span>
+<span class="valor">ANNA ******** ******* DE *****</span>
+</div>
+
+<div class="item">
+<span class="titulo">CPF</span>
+<span class="valor">034.***.***-*9</span>
+</div>
+
+<div class="item">
+<span class="titulo">Curso</span>
+<span class="valor">Análise e Desenvolvimento de Sistemas</span>
+</div>
+
+<div class="item">
+<span class="titulo">Turno</span>
+<span class="valor">Noturno</span>
+</div>
+
+<div class="item">
+<span class="titulo">Validade</span>
+<div class="validade">Até 12/2027</div>
+</div>
+
+</div>
+
+<div class="rodape">
+
+✔ Documento autenticado pelo Sistema Acadêmico UniProcessus
+
+</div>
+
+</div>
+
+</body>
+</html>
